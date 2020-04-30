@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/6454459521.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Song list</title>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1 class="logo text-center">
+        <i class="fas fa-music mr-3"></i>My
+        <span class="text-success">Song </span>List
+      </h1>
+      <div class="form film-form">
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input type="text" class="form-control" id="title" />
+        </div>
+        <div class="form-group">
+          <label for="title">Songer</label>
+          <input type="text" class="form-control" id="singer" />
+        </div>
+        <div class="form-group">
+          <label for="title">ISBN</label>
+          <input type="text" class="form-control" id="isbn" />
+        </div>
+      </div>
+      <button type="button" class="btn btn-info btn-lg btn-block mb-5">
+        Add
+      </button>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Singer</th>
+            <th>ISBN</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
